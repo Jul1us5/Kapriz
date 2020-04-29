@@ -1,0 +1,6 @@
+.container {
+    display: inline-block;
+    width: 1200px;
+    background-color: coral;
+    margin-left: calc(50% - 600px);
+}
