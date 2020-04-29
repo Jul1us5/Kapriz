@@ -1,0 +1,6 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    margin: calc(50vh - 10px);
+    color: rgb(218, 15, 167);
+}
