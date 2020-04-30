@@ -9,3 +9,30 @@ header {
     background-position: 0px 0px;
     background-attachment: fixed;
 }
+    nav {
+        display: inline-block;
+        width: 100%;
+    }
+        .logo {
+            display: inline-block;
+            float: left;
+        }
+            .logo > a {
+                display: inline-block;
+                color: rgb(231, 231, 231);
+                text-decoration: none;
+                font-size: 25px;
+                font-weight: normal;
+            }
+        .links {
+            display: inline-block;
+            float: right;
+        }
+            .links > a {
+                display: inline-block;
+                color: rgb(231, 231, 231);
+                text-decoration: none;
+                font-size: 17px;
+                font-weight: bold; 
+                margin-right: 10px; 
+            }

@@ -1,0 +1,5 @@
+.hero {
+    display: inline-block;
+    margin-top: calc(50vh - 10px);
+    text-align: center;
+}
