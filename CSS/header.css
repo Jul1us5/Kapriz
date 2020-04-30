@@ -3,18 +3,38 @@ header {
     width: 100%;
     height: 100vh;
     z-index: 1;
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(0,0,0,0.9);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px 0px;
+    background-attachment: fixed;
 }
-    /* nav {
-        position: relative;
+    .nav {
         display: inline-block;
-        width: 1200px;
-        margin-left: calc(50% - 600px);
+        margin-top: 30px;
+
     }
-    .hero {
-        position: relative;
-        display: inline-block;
-        width: 1200px;
-        margin-top: calc(50vh - 10px);
-        margin-left: calc(50% - 600px); 
-    } */
+        .logo {
+            display: inline-block;
+            float: left;
+        }
+            .logo > a {
+                display: inline-block;
+                color: rgb(231, 231, 231);
+                text-decoration: none;
+                font-size: 25px;
+                font-weight: normal;
+            }
+        .links {
+            display: inline-block;
+            float: right;
+        }
+            .links > a {
+                display: inline-block;
+                color: rgb(231, 231, 231);
+                text-decoration: none;
+                font-size: 17px;
+                font-weight: bold; 
+                margin-right: 30px; 
+                margin-top: calc(15px - 10px);
+            }

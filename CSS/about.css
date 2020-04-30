@@ -1,5 +1,5 @@
-/* .about {
+.about {
     display: inline-block;
     width: 100%;
-    background-color: tomato;
-} */
+    height: 300px;
+}

@@ -1,6 +1,7 @@
-/* .footer {
+footer {
     display: inline-block;
     width: 100%;
-    background-color: tomato;
-    margin: 0;
-} */
+    height: 100px;
+    background-color: black;
+    color: white;
+}
