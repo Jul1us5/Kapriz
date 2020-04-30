@@ -12,11 +12,13 @@ header {
     .nav {
         display: inline-block;
         margin-top: 30px;
-
     }
         .logo {
             display: inline-block;
             float: left;
+        }
+        .close {
+            display: none;
         }
             .logo > a {
                 display: inline-block;
@@ -38,3 +40,54 @@ header {
                 margin-right: 30px; 
                 margin-top: calc(15px - 10px);
             }
+
+
+@media ( max-width: 1300px ) {
+
+}
+@media ( max-width: 1200px ) {
+
+}
+@media ( max-width: 1100px ) {
+    .links > a {
+        display: inline-block;
+        color: rgb(231, 231, 231);
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: bold; 
+        margin-right: 15px; 
+        margin-top: calc(15px - 10px);
+    }
+}
+@media ( max-width: 900px ) {
+    .links > a {
+        display: inline-block;
+        color: rgb(231, 231, 231);
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: bold; 
+        margin-right: 10px; 
+        margin-top: calc(15px - 10px);
+    }
+}
+@media ( max-width: 820px ) {
+    .nav {
+        display: inline-block;
+        margin-top: 40px;
+        padding: 0px 20px;
+    }
+        .links > a {
+            display: none;
+        }
+        .logo {
+            display: inline-block;
+            float: left;
+        }
+        .close {
+            display: inline-block;
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+            font-size: 25px;
+            float: right;
+        }
+}
