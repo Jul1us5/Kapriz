@@ -3,18 +3,9 @@ header {
     width: 100%;
     height: 100vh;
     z-index: 1;
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(0,0,0,0.9);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px 0px;
+    background-attachment: fixed;
 }
-    /* nav {
-        position: relative;
-        display: inline-block;
-        width: 1200px;
-        margin-left: calc(50% - 600px);
-    }
-    .hero {
-        position: relative;
-        display: inline-block;
-        width: 1200px;
-        margin-top: calc(50vh - 10px);
-        margin-left: calc(50% - 600px); 
-    } */
