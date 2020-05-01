@@ -47,7 +47,7 @@
         @media ( max-width: 900px ) {
 
         }
-        @media ( max-width: 760px ) {
+        @media ( max-width: 820px ) {
             .social {
                 display: inline-block;
                 float: left;
@@ -56,11 +56,18 @@
             }
             .hero {
                 position: absolute;
-                bottom: 50px;
+                bottom: 20px;
                 left: 0;
-                display: inline-block;
-                margin-top: calc(50vh - 100px);
-                text-align: center;
             }
-
+        }
+        @media ( max-width: 420px ) {
+            .social {
+                display: inline-block;
+                float: left;
+                width: 100%;
+                margin-top: 0px;
+            }
+            .hero {
+                bottom: 150px;
+            }
         }
