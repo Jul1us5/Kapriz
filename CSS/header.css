@@ -35,6 +35,7 @@ header {
         .links {
             display: inline-block;
             float: right;
+            transition: 0s;
         }
             .links > a {
                 display: inline-block;
@@ -75,21 +76,27 @@ header {
         z-index: 1;
         padding-top: calc(50vh - 120px);
         overflow: hidden;
-        /* transition: 0.5s; */
+        transition: 0s;
     }
         .tap {
             display: inline-block;
             top: 0%;
             overflow: hidden;
+            transition: 0.6s;
         }
         .links > a {
             display: inline-block;
             float: left;
             width: 200px;
-            font-size: 25px;
+            font-size: 20px;
             margin-left: calc(50% - 100px);
             text-align: center;
+            padding-bottom: 2px;
         }
+            .links > a:last-of-type {
+                padding-bottom: 30px;
+                border-bottom: 1px solid rgb(255, 0, 200);
+            }
         .close {
             position: relative;
             display: inline-block;
@@ -110,4 +117,7 @@ header {
     .links {
         padding-top: calc(50vh - 200px);
     }
+        .links > a {
+            padding-bottom: 20px;
+        }
 }
