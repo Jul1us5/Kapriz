@@ -2,12 +2,14 @@ header {
     display: inline-block;
     width: 100%;
     height: 100vh;
-    z-index: 1;
-    background-color: rgba(0,0,0,0.9);
+    /* z-index: 2; */
+    /* background-color: rgba(0,0,0,0.9); */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 0px 0px;
     background-attachment: fixed;
+    /* position: relative;
+    cursor: pointer; */
 }
     .nav {
         display: inline-block;
@@ -16,16 +18,30 @@ header {
         .logo {
             display: inline-block;
             float: left;
+            position: relative;
+            cursor: pointer;
+            z-index: 1;
+            
         }
+            .logo > img {
+                display: inline-block;
+                width: 100px;
+                height: 100px;
+                float: left;
+                border-radius: 50%;
+                background-color: rgb(255, 255, 255);
+                border: 1px solid rgb(255, 0, 170);
+            }
         .close {
             display: none;
         }
             .logo > a {
                 display: inline-block;
-                color: rgb(231, 231, 231);
+                color: rgb(0, 0, 0);
                 text-decoration: none;
                 font-size: 25px;
                 font-weight: normal;
+                margin-left: 10px;
             }
         .links {
             display: inline-block;
@@ -33,12 +49,15 @@ header {
         }
             .links > a {
                 display: inline-block;
-                color: rgb(231, 231, 231);
+                color: rgb(0, 0, 0);
                 text-decoration: none;
                 font-size: 17px;
                 font-weight: bold; 
                 margin-right: 30px; 
                 margin-top: calc(15px - 10px);
+                position: relative;
+                cursor: pointer;
+                z-index: 1;
             }
 
 
@@ -51,7 +70,7 @@ header {
 @media ( max-width: 1100px ) {
     .links > a {
         display: inline-block;
-        color: rgb(231, 231, 231);
+        /* color: rgb(231, 231, 231); */
         text-decoration: none;
         font-size: 16px;
         font-weight: bold; 
@@ -62,7 +81,7 @@ header {
 @media ( max-width: 900px ) {
     .links > a {
         display: inline-block;
-        color: rgb(231, 231, 231);
+        /* color: rgb(231, 231, 231); */
         text-decoration: none;
         font-size: 16px;
         font-weight: bold; 
@@ -85,7 +104,7 @@ header {
         }
         .close {
             display: inline-block;
-            color: rgb(255, 255, 255);
+            color: rgb(0, 0, 0);
             text-decoration: none;
             font-size: 25px;
             float: right;
