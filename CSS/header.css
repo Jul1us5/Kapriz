@@ -1,15 +1,13 @@
 header {
+    position: relative;
     display: inline-block;
     width: 100%;
     height: 100vh;
-    /* z-index: 2; */
-    /* background-color: rgba(0,0,0,0.9); */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 0px 0px;
     background-attachment: fixed;
-    /* position: relative;
-    cursor: pointer; */
+    overflow: hidden;
 }
     .nav {
         display: inline-block;
@@ -23,15 +21,6 @@ header {
             z-index: 1;
             
         }
-            .logo > img {
-                display: inline-block;
-                width: 100px;
-                height: 100px;
-                float: left;
-                border-radius: 50%;
-                background-color: rgb(255, 255, 255);
-                border: 1px solid rgb(255, 0, 170);
-            }
         .close {
             display: none;
         }
@@ -68,45 +57,51 @@ header {
 
 }
 @media ( max-width: 1100px ) {
-    .links > a {
-        display: inline-block;
-        /* color: rgb(231, 231, 231); */
-        text-decoration: none;
-        font-size: 16px;
-        font-weight: bold; 
-        margin-right: 15px; 
-        margin-top: calc(15px - 10px);
-    }
+
 }
 @media ( max-width: 900px ) {
-    .links > a {
-        display: inline-block;
-        /* color: rgb(231, 231, 231); */
-        text-decoration: none;
-        font-size: 16px;
-        font-weight: bold; 
-        margin-right: 10px; 
-        margin-top: calc(15px - 10px);
-    }
+
 }
 @media ( max-width: 820px ) {
-    .nav {
+    .links {
+        position: absolute;
+        top: 0;
+        right: -100%;
         display: inline-block;
-        margin-top: 40px;
-        padding: 0px 20px;
+        width: 100%;
+        height: 100vh;
+        float: left;
+        background-color: rgb(255, 255, 255);
+        z-index: 1;
+        padding-top: calc(50vh - 150px);
+        overflow: hidden;
+        /* transition: 1s; */
     }
-        .links > a {
-            display: none;
+        .tap {
+            display: inline-block;
+            right: 0%;
+            overflow: hidden;
         }
-        .logo {
+        .links > a {
             display: inline-block;
             float: left;
+            width: 200px;
+            font-size: 25px;
+            margin-left: calc(50% - 100px);
+            text-align: center;
         }
         .close {
+            position: relative;
             display: inline-block;
             color: rgb(0, 0, 0);
             text-decoration: none;
             font-size: 25px;
             float: right;
+            padding: 0px 20px;
+            z-index: 2;
         }
+            .logo {
+                padding: 0px 20px;
+                z-index: 2;
+            }
 }

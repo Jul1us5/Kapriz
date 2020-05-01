@@ -2,11 +2,9 @@ html {
     scroll-behavior: smooth;
   }
     .container {
-        position: relative;
         display: inline-block;
         width: 1200px;
         margin-left: calc(50% - 600px);
-        overflow: hidden;
     }
     .bg {
         background-color: var(--bg-color);
@@ -15,46 +13,36 @@ html {
 
 @media ( max-width: 1300px ) {
     .container {
-        position: relative;
         display: inline-block;
         width: 1150px;
         margin-left: calc(50% - 575px);
-        overflow: hidden;
     }
 }
 @media ( max-width: 1200px ) {
     .container {
-        position: relative;
         display: inline-block;
         width: 1000px;
         margin-left: calc(50% - 500px);
-        overflow: hidden;
     }
 }
 @media ( max-width: 1100px ) {
     .container {
-        position: relative;
         display: inline-block;
-        width: 800px;
-        margin-left: calc(50% - 400px);
-        overflow: hidden;
+        width: 900px;
+        margin-left: calc(50% - 450px);
     }
 }
 @media ( max-width: 900px ) {
     .container {
-        position: relative;
         display: inline-block;
-        width: 700px;
-        margin-left: calc(50% - 350px);
-        overflow: hidden;
+        width: 800px;
+        margin-left: calc(50% - 400px);
     }
 }
-@media ( max-width: 768px ) {
+@media ( max-width: 820px ) {
     .container {
-        position: relative;
         display: inline-block;
         width: 100%;
         margin-left: 0;
-        overflow: hidden;
     }
 }
