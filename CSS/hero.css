@@ -1,4 +1,7 @@
 .hero {
+    position: absolute;
+    bottom: 200px;
+    left: 0;
     display: inline-block;
     margin-top: calc(50vh - 100px);
     text-align: center;
@@ -30,5 +33,34 @@
             display: inline-block;
             background-color: rgb(255, 13, 243);
             color: white;
-            transition: 0.5s;
+        }
+
+        @media ( max-width: 1300px ) {
+
+        }
+        @media ( max-width: 1200px ) {
+
+        }
+        @media ( max-width: 1100px ) {
+ 
+        }
+        @media ( max-width: 900px ) {
+
+        }
+        @media ( max-width: 760px ) {
+            .social {
+                display: inline-block;
+                float: left;
+                width: 100%;
+                margin-top: 0px;
+            }
+            .hero {
+                position: absolute;
+                bottom: 50px;
+                left: 0;
+                display: inline-block;
+                margin-top: calc(50vh - 100px);
+                text-align: center;
+            }
+
         }
