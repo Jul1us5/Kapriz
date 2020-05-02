@@ -17,5 +17,15 @@ function tapClose() {
                 tap.className = 'links';
                 
             }
-    
+
+            myFunction(this);
 }
+
+// -----------------------[ MENU open / close animation ]
+
+function myFunction(x) {
+    x.classList.toggle("change");
+  }
+
+// ---------------------- [ RESIZE close menu ] 
+
