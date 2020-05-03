@@ -27,5 +27,8 @@ function myFunction(x) {
     x.classList.toggle("change");
   }
 
-// ---------------------- [ RESIZE close menu ] 
+// ---------------------- [ SLIDER ] 
+
+
+
 
