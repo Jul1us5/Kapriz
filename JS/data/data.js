@@ -1,0 +1,1 @@
+const sliderData = ['red.png-.png', 'Solid_brown.svg']
