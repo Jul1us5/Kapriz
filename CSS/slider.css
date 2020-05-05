@@ -1,24 +1,26 @@
 .slideshow-container {
     width: 100%;
     height: 100vh;
-    position: absolute;
-    top: 0;
-    left: 0;
+    position: relative;
+    /* top: 0;
+    left: 0; */
     /* margin: auto; */
   }
-  .slideshow-container > img {
+  /* .slideshow-container > img {
       height: 100vh;
-  }
+  } */
 
   
   /* Hide the images by default */
   .mySlides {
     display: none;
   }
-    .mySlides > img {
+    .mySlides .fade > img {
       display: inline-block;
       width: 100%;
       height: 100vh;
+      background-position: bottom;
+      background-size: cover;
     }
 
   
@@ -26,10 +28,10 @@
 
   
   /* Position the "next button" to the right */
-  .next {
+  /* .next {
     right: 0;
     border-radius: 3px 0 0 3px;
-  }
+  } */
   
   /* On hover, add a black background color with a little bit see-through */
 
@@ -87,7 +89,7 @@
     -webkit-animation-name: fade;
     -webkit-animation-duration: 1.5s;
     animation-name: fade;
-    animation-duration: 1s;
+    animation-duration: 0.5s;
   }
   
   @-webkit-keyframes fade {
