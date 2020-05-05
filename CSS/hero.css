@@ -35,16 +35,32 @@
             color: white;
         }
 
-        @media ( max-width: 1300px ) {
-
+        @media ( max-width: 1400px ) {
+            .hero {
+                position: absolute;
+                bottom: 35%;
+                left: 0;
+                display: inline-block;
+                margin-top: calc(50vh - 100px);
+                text-align: center;
+            }
         }
         @media ( max-width: 1200px ) {
 
         }
         @media ( max-width: 1100px ) {
+            .hero {
+                position: absolute;
+                bottom: 40%;
+                left: 0;
+                display: inline-block;
+                margin-top: calc(50vh - 100px);
+                text-align: center;
+            }
  
         }
         @media ( max-width: 900px ) {
+            
 
         }
         @media ( max-width: 820px ) {

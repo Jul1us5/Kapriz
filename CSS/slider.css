@@ -15,6 +15,12 @@
   .mySlides {
     display: none;
   }
+    .mySlides > img {
+      display: inline-block;
+      width: 100%;
+      height: 100vh;
+    }
+
   
   /* Next & previous buttons */
 
@@ -52,10 +58,8 @@
         position: absolute;
         top: 50%;
         right: 150px;
-        /* transform: rotate(90deg); */
     }
   
-  /* The dots/bullets/indicators */
   .dot {
     position: relative;
     top: 50%;
@@ -116,6 +120,11 @@
     }
 }
 @media ( max-width: 420px ) {
+  .mySlides > img {
+    display: inline-block;
+    width: 100%;
+    height: 100vh;
+  }
     .dots {
         display: none;
     }
